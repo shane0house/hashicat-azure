@@ -11,7 +11,7 @@ module "network" {
     "subnet2" : ["Microsoft.Sql"],
     "subnet3" : ["Microsoft.Sql"]
   }
-  use_for_each = true
+
   tags = {
     environment = "dev"
     costcenter  = "it"
